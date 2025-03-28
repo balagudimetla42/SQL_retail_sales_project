@@ -1,0 +1,29 @@
+USE [sql_project_p1]
+GO
+
+INSERT INTO [dbo].[retail_sales]
+           ([transactions_id]
+           ,[sale_date]
+           ,[sale_time]
+           ,[customer_id]
+           ,[gender]
+           ,[age]
+           ,[category]
+           ,[quantiy]
+           ,[price_per_unit]
+           ,[cogs]
+           ,[total_sale])
+     VALUES
+           (<transactions_id, int,>
+           ,<sale_date, date,>
+           ,<sale_time, time(7),>
+           ,<customer_id, int,>
+           ,<gender, varchar(50),>
+           ,<age, int,>
+           ,<category, varchar(15),>
+           ,<quantiy, int,>
+           ,<price_per_unit, float,>
+           ,<cogs, float,>
+           ,<total_sale, float,>)
+GO
+
