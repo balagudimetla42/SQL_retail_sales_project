@@ -176,6 +176,6 @@ select count(transactions_id), timings
 from holy 
 group by timings;
 ```
-Learning Git practically.
+
 
 --end--
